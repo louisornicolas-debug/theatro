@@ -1,0 +1,6 @@
+@echo off
+echo Lancement de Theatro Reservation VIP...
+cd /d "C:\Users\louis\.gemini\antigravity\scratch\theatro-vip"
+echo Demarrage du serveur...
+call npm run dev -- --port 5173 --open
+pause
